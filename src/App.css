@@ -24,10 +24,6 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -35,4 +31,13 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.navLinks a {
+  padding: 0px 5px;
+  color: teal;
+}
+
+.navLinks a:hover {
+  text-decoration: inherit;
 }
