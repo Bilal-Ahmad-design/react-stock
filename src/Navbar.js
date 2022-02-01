@@ -1,9 +1,9 @@
-const Navbarr = () => {
+const Navbar = () => {
   return (
     <nav className='navbar'>
-      <h3>Stock</h3>
+      <h1>Stock</h1>
       <div className='navLinks'>
-        <a href='/'>KSE100</a>
+        <a href='/kse100'>KSE100</a>
         <a href='/invest'>Invest</a>
         <a href='/account'>Account</a>
       </div>
@@ -11,4 +11,4 @@ const Navbarr = () => {
   );
 };
 
-export default Navbarr;
+export default Navbar;
